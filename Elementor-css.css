@@ -1,0 +1,5 @@
+body {overflow-x:hidden !important;}
+
+.elementor-button, .elementor-button:hover, .elementor-button:focus {
+    outline: none !important;
+}
