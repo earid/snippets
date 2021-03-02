@@ -1,7 +1,16 @@
+/* remove scroll bar */
+
 body {overflow-x:hidden !important;}
 
 html,
 body{
 width:100%;
 overflow-x:hidden;
+}
+
+/* remove focus border */
+
+*:focus { 
+  outline: 0 !important;
+  box-shadow: none !important ;
 }
