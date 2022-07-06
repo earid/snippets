@@ -1,14 +1,14 @@
 /* Snipppet 1 */
 /* slide chaneg on image */ 
 
-function imageSlider(anything){
-    document.querySelector('.pepsi').src = anything;
+function funName(funParam){
+    document.querySelector('.demo').src = funParam;
   }
 
-HTML >> onclick="imageSlider('image/link.png');"
+HTML >> onclick="funParam('image/link.png');"
 
- function changebgColor(color){
+ function funName(funParam){
     const sec = document.querySelector('.sec');
-    sec.style.background = color;
+    sec.style.background = funParam;
  }
-HTML >> onclick="changebgColor('#FFF');"
+HTML >> onclick="funName('#FFF');"
