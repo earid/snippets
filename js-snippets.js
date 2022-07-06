@@ -6,6 +6,8 @@ function funName(funParam){
   }
 
 HTML >> onclick="funParam('image/link.png');"
+/* Snipppet 2 */
+/* change bg color */
 
  function funName(funParam){
     const sec = document.querySelector('.sec');
