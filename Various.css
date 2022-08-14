@@ -1,0 +1,13 @@
+// BEFORE AFTER CSS
+// Under line below heading
+
+.title h1:after{
+	content: '';
+	width: 15px;
+	height: 15px;
+	background: #000;
+	display: block;
+	position: relative; 
+  margin: auto; 
+	
+}
