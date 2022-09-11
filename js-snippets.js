@@ -14,13 +14,11 @@ HTML >> onclick="funParam('image/link.png');"
  }
 HTML >> onclick="funName('#FFF');"
 
-/* Snipppet 3 ----- insert a class with jQuery*/
+/* Snipppet 3 ----- insert a class with jQuery / Menu toggle*/
 
-$(document).ready(function(){
-  $('.menu-toggle').click(function(){
-    $('nav').toggleClass('active')
-  })
-})
+ function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active')
 
 /* Sticky header function */
             window.addEventListener('scroll', function(){
