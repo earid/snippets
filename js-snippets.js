@@ -25,3 +25,10 @@ HTML >> onclick="funName('#FFF');"
             var header = document.querySelector('header');
             header.classList.toggle('sticky' , window.scrollY > 0)
         });
+
+/* add active class */
+        let sideBar = document.querySelector('.container .sidebar');
+
+document.querySelector('#menu-btn').onclick = () =>{
+    sideBar.classList.toggle('active');
+};
