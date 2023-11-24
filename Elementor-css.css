@@ -14,3 +14,13 @@ overflow-x:hidden;
   outline: 0 !important;
   box-shadow: none !important ;
 }
+Close Tab on mobile
+<script>
+    if(window.outerWidth < 425) {
+alert(‘jQuery(document).ready(function($) {
+var delay = 10; setTimeout(function() {
+$(‘.elementor-tab-title’).removeClass(‘elementor-active’);
+$(‘.elementor-tab-content’).css(‘display’, ‘none’); }, delay);
+});’);
+}
+</script> 
