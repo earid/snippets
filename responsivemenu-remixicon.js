@@ -1,12 +1,18 @@
 const menuBtn = document.getElementById('menu-btn');
 const navLinks = document.getElementById('nav-links');
-const menuIcon = document.querySelector('i');
+const menuIcon = menuBtn.querySelector('i');
 
-menuBtn.addEventListner(click , ()=>{
-	navLiks.classList.toggle('open');
-	const isOpen = navLinks.classList.contains('open');
-	meuIcon.setAttribute(
-	'class' , isOpen ? 'one' : two
-	)
-	
+menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    const isOpen = navLinks.classList.contains('open')
+    menuIcon.setAttribute(
+        'class',
+        isOpen ? 'ri-close-line' : 'ri-menu-3-line'
+    );
 })
+
+
+navLinks.addEventListener("click", (e) => {
+    navLinks.classList.remove("open");
+    menuIcon.setAttribute("class", "ri-menu-3-line");
+});
