@@ -6,3 +6,8 @@ shopify theme dev --store {store-name}
 shopify theme push --unpublished
 shopify theme push
 shopify theme publish
+
+
+shopify theme dev
+shopify login
+shopify theme dev
