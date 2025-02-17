@@ -1,3 +1,8 @@
 npm install -g @shopify/cli@latest
 cd to directory
 npm install -g @shopify/cli @shopify/theme
+shopify theme init
+shopify theme dev --store {store-name}
+shopify theme push --unpublished
+shopify theme push
+shopify theme publish
