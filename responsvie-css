@@ -1,3 +1,14 @@
+
+
+@media (max-width:1200px){
+}
+@media (max-width:768px){
+  }
+ @media (max-width:576px){
+  }
+ 
+
+
 /* Extra small devices (phones, 0px and up) */
 @media only screen and (max-width: 575px) {
     /* Styles for extra small screens */
