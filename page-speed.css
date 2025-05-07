@@ -1,0 +1,27 @@
+ .elementor img[data-src],
+  .elementor img.lazy {
+    aspect-ratio: attr(width) / attr(height);
+    background: #f5f5f5; /* Optional: placeholder color */
+  }
+
+  /* 2. Heading title shift fix */
+  .elementor-heading-title {
+    display: inline-block;
+    min-height: 1.2em; /* Adjust based on your font size */
+  }
+
+  /* 3. Section container stability */
+  .elementor-section {
+    overflow: hidden; /* Contains child elements */
+  }
+
+  /* 4. Carousel/slider fixes */
+  .elementor-carousel,
+  .swiper-wrapper {
+    backface-visibility: hidden;
+  }
+
+  /* 5. Dynamic content containers */
+  [data-elementor-type] {
+    content-visibility: auto;
+  }
